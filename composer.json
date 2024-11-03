@@ -5,7 +5,7 @@
     "require": {
         "php": ">=8.3",
         "potter/array-access": "dev-main",
-        "potter/enumerable": "dev-main",
+        "php-ables/enumerable": "dev-main",
         "illuminate/collections": "^11.30"
     },
     "license": "MIT",
