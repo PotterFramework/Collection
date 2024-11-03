@@ -1,0 +1,25 @@
+{
+    "name": "potter/collection",
+    "description": "PHP Collection Implementation",
+    "type": "library",
+    "require": {
+        "php": ">=8.3",
+        "potter/array-access": "dev-main",
+        "potter/enumerable": "dev-main",
+        "illuminate/collections": "^11.30"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Collection\\": "src/Potter/Collection/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
